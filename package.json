@@ -1,0 +1,11 @@
+{
+  "name": "multi-language",
+  "private": true,
+  "scripts": {
+    "start": "jolt-server -r src"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jolt-server": "^1.0.1"
+  }
+}
