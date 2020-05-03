@@ -2,10 +2,12 @@
   "name": "multi-language",
   "private": true,
   "scripts": {
-    "start": "jolt-server -r src"
+    "start": "jolt-server -r dist",
+    "build": "node build.js"
   },
   "dependencies": {},
   "devDependencies": {
+    "fs-extra": "^9.0.0",
     "jolt-server": "^1.0.1"
   }
 }
